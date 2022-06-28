@@ -1,0 +1,26 @@
+{
+  "name": "@mefu-ui/button",
+  "version": "1.0.0",
+  "description": "a simple button component",
+  "keywords": [
+    "button"
+  ],
+  "author": "Gustavo Souza <kyoro_souza@hotmail.com>",
+  "license": "MIT",
+  "main": "dist/mefu-ui-button.cjs.js",
+  "module": "dist/mefu-ui-button.esm.js",
+  "types": "dist/mefu-ui-button.cjs.d.ts",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "preconstruct": {},
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Futhememe/mefu-ui.git",
+    "directory": "packages/button"
+  }
+}
