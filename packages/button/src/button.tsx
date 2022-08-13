@@ -6,5 +6,9 @@ export interface ButtonProps {
 }
 
 export function Button(props: ButtonProps) {
-	return <StyledButton>{props.children}</StyledButton>
+	return (
+		<React.Fragment>
+			<StyledButton>{props.children}</StyledButton>
+		</React.Fragment>
+	)
 }
