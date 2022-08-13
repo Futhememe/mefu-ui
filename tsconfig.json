@@ -19,7 +19,7 @@
     "declarationMap": true
   },
   "include": ["packages", "scripts"],
-  "exclude": ["**/node_modules"],
+  "exclude": ["**/node_modules", "packages/**/*.test.tsx", "packages/**/*.stories.jsx"],
   "ts-node": {
     "compilerOptions": {
       "module": "CommonJS",
